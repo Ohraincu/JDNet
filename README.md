@@ -35,33 +35,34 @@ All training and testing experiments are in a folder called [code](https://githu
 ```
 cd ./code
 ```
+|--code  
 
-|--ablation  
-    |--r1  
-        |--config 
-        |--models
-    |--r2
-        |--config 
-        |--models
-        
-|--base 
-    |--rain100H 
-        |--config 
-        |--models
-    |--rain100L
-        |--config 
-        |--models
-    |--rain1200
-        |--config 
-        |--models   
-        
-|--diff_loss
-    |--mae
-        |--config 
-        |--models
-    |--mse
-        |--config 
-        |--models
+    |--ablation  
+        |--r1  
+            |--config 
+            |--models
+        |--r2
+            |--config 
+            |--models
+
+    |--base 
+        |--rain100H 
+            |--config 
+            |--models
+        |--rain100L
+            |--config 
+            |--models
+        |--rain1200
+            |--config 
+            |--models   
+
+    |--diff_loss
+        |--mae
+            |--config 
+            |--models
+        |--mse
+            |--config 
+            |--models
 
 ## Testing
 
