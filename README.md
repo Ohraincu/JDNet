@@ -43,6 +43,7 @@ cd ./code
     |--r2
         |--config 
         |--models
+        
 |--base 
     |--rain100H 
         |--config 
@@ -52,7 +53,8 @@ cd ./code
         |--models
     |--rain1200
         |--config 
-        |--models    
+        |--models   
+        
 |--diff_loss
     |--mae
         |--config 
