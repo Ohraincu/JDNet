@@ -34,35 +34,21 @@ Fig：The architecture of Joint Network for deraining (JDNet).
 All training and testing experiments are in a folder called [code](https://github.com/Ohraincu/JDNet/tree/master/code).
 ```
 cd ./code
-```
-|--code  
+```  
 
     |--ablation  
         |--r1  
-            |--config 
-            |--models
         |--r2
-            |--config 
-            |--models
 
     |--base 
         |--rain100H 
-            |--config 
-            |--models
         |--rain100L
-            |--config 
-            |--models
-        |--rain1200
-            |--config 
-            |--models   
+        |--rain1200 
 
     |--diff_loss
         |--mae
-            |--config 
-            |--models
         |--mse
-            |--config 
-            |--models
+
 
 ## Testing
 
