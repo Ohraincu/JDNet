@@ -22,12 +22,51 @@ Fig：The architecture of Joint Network for deraining (JDNet).
 - Torchvision 0.3.0
 - OpenCV
 
+## Dataset
+
+* Rain12  [[dataset](http://yu-li.github.io/paper/li_cvpr16_rain.zip)]
+* Rain100L [[dataset](http://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html)]
+* Rain100H [[dataset](http://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html)]
+* Rain1200 [[dataset](https://github.com/hezhangsprinter/DID-MDN)] 
+* Real-world images (waiting for update!)
+
 ## Training
-All training and testing experiments are in a folder called [code](https://github.com/Ohraincu/JDNet/tree/master/code)\*.
+All training and testing experiments are in a folder called [code](https://github.com/Ohraincu/JDNet/tree/master/code).
 ```
 cd ./code
-python train_MSPFN.py 
 ```
+
+|--ablation  
+
+    |--r1  
+        |--config 
+        |--models
+    |--r2
+        |--config 
+        |--models
+    
+|--base 
+
+    |--rain100H 
+        |--config 
+        |--models
+    |--rain100L
+        |--config 
+        |--models
+    |--rain1200
+        |--config 
+        |--models
+        
+|--diff_loss
+
+    |--mae
+        |--config 
+        |--models
+    |--mse
+        |--config 
+        |--models
+
+
 
 
 ## Testing
