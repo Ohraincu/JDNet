@@ -1,8 +1,6 @@
 # JDNet：Joint Self-Attention and Scale-Aggregation for Self-Calibrated Deraining Network
 
-[Cong Wang](https://supercong94.wixsite.com/supercong94)\*, [Yutong Wu](https://github.com/Ohraincu)\*, [Zhixun Su](http://faculty.dlut.edu.cn/ZhixunSu/zh_CN/index/759047/list/index.htm) †, Junyang Chen
-
-(\* Both authors contributed equally to this research. † Corresponding author.)
+[Cong Wang](https://supercong94.wixsite.com/supercong94)\*, [Yutong Wu](https://github.com/Ohraincu)\*, [Zhixun Su](http://faculty.dlut.edu.cn/ZhixunSu/zh_CN/index/759047/list/index.htm) †, Junyang Chen <\* Both authors contributed equally to this research. † Corresponding author.>
 
 
 This article has been accepted by ACM'MM 2020.
