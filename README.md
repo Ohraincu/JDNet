@@ -37,16 +37,13 @@ cd ./code
 ```
 
 |--ablation  
-
     |--r1  
         |--config 
         |--models
     |--r2
         |--config 
         |--models
-    
 |--base 
-
     |--rain100H 
         |--config 
         |--models
@@ -55,19 +52,14 @@ cd ./code
         |--models
     |--rain1200
         |--config 
-        |--models
-        
+        |--models    
 |--diff_loss
-
     |--mae
         |--config 
         |--models
     |--mse
         |--config 
         |--models
-
-
-
 
 ## Testing
 
