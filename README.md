@@ -34,9 +34,11 @@ Please download the following datasets:
 * Rain100H [[dataset](http://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html)]
 * Real-world images [[dataset](https://pan.baidu.com/s/1gpuB6NUHPnQEtgRn4evr5A)](password:vvuk)
 
-## Overall
-All training and testing experiments are in a folder called [code](https://github.com/Ohraincu/JDNet/tree/master/code).
+## Setup
+Please download this project through 'git' command.
+All training and testing experiments are in a folder called [code](https://github.com/Ohraincu/JDNet/tree/master/code):
 ```
+git clone https://github.com/Ohraincu/JDNet.git
 cd code
 ```  
 Next, we can see folders in the following form:
@@ -117,6 +119,7 @@ The path of the dataset you are about to run is: "/Your_paired_datadir/test"
 ## Citation
 Wait for update！
 
-## More Explanation
+## Contact
 
-If you are interested in our work or have any questions, please directly contact my github or email: ytongwu@mail.dlut.edu.cn
+If you are interested in our work or have any questions, please directly contact my github.
+Email: ytongwu@mail.dlut.edu.cn / supercong94@gmail.com
