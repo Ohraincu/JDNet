@@ -74,12 +74,11 @@ parser.add_argument('-m', '--model', default='net_x_epoch')
 ```
 
 ## Supplement to setting.py
-<center>
-<figure>
-<img src="https://github.com/Ohraincu/JDNet/blob/master/fig/ex_pair.png" width="60%" height="60%" />
-<img src="https://github.com/Ohraincu/JDNet/blob/master/fig/ex_unpair.png" width="20%" height="20%" />
-</figure>
+<center class="half">
+    <img src="https://github.com/Ohraincu/JDNet/blob/master/fig/ex_pair.png" width="200"/><img src="https://github.com/Ohraincu/JDNet/blob/master/fig/ex_unpair.png" width="200"/>
 </center>
+
+
 
 ## Citation
 
