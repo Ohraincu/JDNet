@@ -75,7 +75,8 @@ parser.add_argument('-m', '--model', default='net_x_epoch')
 
 ## Supplement to setting.py
 <center class = "half">
-<img src = "https://github.com/Ohraincu/JDNet/blob/master/fig/ex_pair.png" width="40%" height="40%" align = left><img src = "https://github.com/Ohraincu/JDNet/blob/master/fig/ex_unpair.png" width="25%" height="25%" align = right>
+    <img src = "https://github.com/Ohraincu/JDNet/blob/master/fig/ex_pair.png" width="60%" height="60%" align = left>
+    <img src = "https://github.com/Ohraincu/JDNet/blob/master/fig/ex_unpair.png" width="20%" height="20%" align = right>
 </center>
 
 ## Citation
