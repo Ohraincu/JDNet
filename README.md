@@ -82,8 +82,8 @@ parser.add_argument('-m', '--model', default='net_x_epoch')
         <td ><center><img src="https://github.com/Ohraincu/JDNet/blob/master/fig/ex_unpair.png" width="200"></center></td>
     </tr>
     <tr>
-        <td ><center>Fig: Paired image.</center></td>
-        <td ><center>Fig: Unpaired image.</center></td>
+        <td ><center></center>Fig: Paired image.</td>
+        <td ><center></center>Fig: Unpaired image.</td>
     </tr>
 </table>
 </div>
