@@ -16,7 +16,7 @@ Fig1：An example from real-world datasets.
 In this paper, we propose an effective algorithm, called JDNet, to solve the single image deraining problem and conduct the segmentation and detection task for applications. Specifically, considering the important information on multi-scale features, we propose a Scale-Aggregation module to learn the features with different scales. Simultaneously, Self-Attention module is introduced to match or outperform their convolutional counterparts, which allows the feature aggregation to adapt to each channel. Furthermore, to improve the basic convolutional feature transformation process of Convolutional Neural Networks (CNNs), Self-Calibrated convolution is applied to build long-range spatial and inter-channel dependencies around each spatial location that explicitly expand fields-of-view of each convolutional layer through internal communications and hence enriches the output features. By designing the Scale-Aggregation and Self-Attention modules with Self-Calibrated convolution skillfully, the proposed model has better deraining results both on real-world and synthetic datasets. Extensive experiments are con- ducted to demonstrate the superiority of our method compared with state-of-the-art methods.
 
 <div align=center>
-<img src="https://github.com/Ohraincu/JDNet/blob/master/fig/overall.png" width="80%" height="80%">
+<img src="https://github.com/Ohraincu/JDNet/blob/master/fig/overall.png" width="80%">
 
 Fig2：The architecture of Joint Network for deraining (JDNet).
 </div>
@@ -70,6 +70,11 @@ $ python train.py
 You can pause or start the training at any time because we can save the pre-trained models (named 'latest_net' or 'net_x_epoch') in due course.
 
 ## Testing
+### Pre-trained Models
+[BaiduYun](https://pan.baidu.com/s/1MHVnTTN-kjeDQ-x9m_zr0Q)(password:9sbj)
+[GoogleDrive](https://drive.google.com/drive/folders/1rzidCqbhgnKEGNOgFLqSUynhux4SfURI)
+
+### Quantitative and Qualitative Results
 After running eval.py, you can get the corresponding numerical results (PSNR and SSIM):
 ```
 $ python eval.py
@@ -116,10 +121,16 @@ dt = sess.get_dataloader('test')
 ```
 The path of the dataset you are about to run is: "/Your_paired_datadir/test"
 
-
-
 ## Citation
-Wait for update！
+Wait for update!
+```
+@inproceedings{acmmm20_jdnet,
+	author    = {Cong Wang and Yutong Wu and Zhixun Su and Junyang Chen},
+	title     = {Joint Self-Attention and Scale-Aggregation for Self-Calibrated Deraining Network},
+	booktitle = {ACM International Conference on Multimedia},
+	year      = {2020},
+}
+```
 
 ## Contact
 
