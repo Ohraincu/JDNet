@@ -7,7 +7,7 @@
 This work has been accepted by ACM'MM 2020. [\[Arxiv\]](https://arxiv.org/abs/2008.02763) 
 
 <div align=center>
-<img src="https://github.com/Ohraincu/JDNet/blob/master/fig/result.png" width="50%">
+<img src="https://github.com/Ohraincu/JDNet/blob/master/fig/result.png" width="60%">
 
 Fig1：An example from real-world datasets.
 </div>
