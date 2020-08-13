@@ -74,6 +74,14 @@ parser.add_argument('-m', '--model', default='net_x_epoch')
 ```
 
 ## Supplement to setting.py
+
+<table>
+    <tr>
+        <td ><center><img src="https://github.com/Ohraincu/JDNet/blob/master/fig/ex_pair.png" width="200">nav1</center></td>
+        <td ><center><img src="https://github.com/Ohraincu/JDNet/blob/master/fig/ex_unpair.png" width="200">nav2</center></td>
+    </tr>
+</table>
+
 <center class="half">
     <img src="https://github.com/Ohraincu/JDNet/blob/master/fig/ex_pair.png" width="200"/><img src="https://github.com/Ohraincu/JDNet/blob/master/fig/ex_unpair.png" width="200"/>
 </center>
