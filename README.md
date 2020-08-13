@@ -5,7 +5,7 @@
 This work has been accepted by ACM'MM 2020. [\[Arxiv\]](https://arxiv.org/abs/2008.02763) 
 
 <div align=center>
-<img src="https://github.com/Ohraincu/JDNet/blob/master/fig/overall.png" width="80%" height="80%">
+<img src="https://github.com/Ohraincu/JDNet/blob/master/fig/result.png" width="80%" height="80%">
 
 Fig1：The architecture of Joint Network for deraining (JDNet).
 </div>
@@ -32,7 +32,7 @@ Please download the following datasets:
 * Rain12  [[dataset](http://yu-li.github.io/paper/li_cvpr16_rain.zip)]
 * Rain100L [[dataset](http://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html)]
 * Rain100H [[dataset](http://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html)]
-* Real-world images (waiting for update!)
+* Real-world images [[dataset](https://pan.baidu.com/s/1gpuB6NUHPnQEtgRn4evr5A)](password:vvuk)
 
 ## Overall
 All training and testing experiments are in a folder called [code](https://github.com/Ohraincu/JDNet/tree/master/code).
@@ -115,7 +115,8 @@ The path of the dataset you are about to run is: "/Your_paired_datadir/test"
 
 
 ## Citation
+Wait for update！
 
+## More Explanation
 
-## 
-
+If you are interested in our work or have any questions, please directly contact my github or email: ytongwu@mail.dlut.edu.cn
