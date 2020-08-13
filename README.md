@@ -7,11 +7,17 @@ This work has been accepted by ACM'MM 2020. [\[Arxiv\]](https://arxiv.org/abs/20
 <div align=center>
 <img src="https://github.com/Ohraincu/JDNet/blob/master/fig/overall.png" width="80%" height="80%">
 
-Fig：The architecture of Joint Network for deraining (JDNet).
+Fig1：The architecture of Joint Network for deraining (JDNet).
 </div>
 
 ## Abstract
 In this paper, we propose an effective algorithm, called JDNet, to solve the single image deraining problem and conduct the segmentation and detection task for applications. Specifically, considering the important information on multi-scale features, we propose a Scale-Aggregation module to learn the features with different scales. Simultaneously, Self-Attention module is introduced to match or outperform their convolutional counterparts, which allows the feature aggregation to adapt to each channel. Furthermore, to improve the basic convolutional feature transformation process of Convolutional Neural Networks (CNNs), Self-Calibrated convolution is applied to build long-range spatial and inter-channel dependencies around each spatial location that explicitly expand fields-of-view of each convolutional layer through internal communications and hence enriches the output features. By designing the Scale-Aggregation and Self-Attention modules with Self-Calibrated convolution skillfully, the proposed model has better deraining results both on real-world and synthetic datasets. Extensive experiments are con- ducted to demonstrate the superiority of our method compared with state-of-the-art methods.
+
+<div align=center>
+<img src="https://github.com/Ohraincu/JDNet/blob/master/fig/overall.png" width="80%" height="80%">
+
+Fig1：The architecture of Joint Network for deraining (JDNet).
+</div>
 
 ## Requirements
 - CUDA 9.0
@@ -73,11 +79,10 @@ All the pre-trained model in each case is placed in the corresponding 'model' fo
 parser.add_argument('-m', '--model', default='net_x_epoch')
 ```
 
-## Supplement to setting.py
+## Supplement to settings.py
+One thing to note is that, there are two types of input in our training or testing.
 
-td {
-    text-align:center;
-}
+One takes a paired image as input, and the other uses a single rainy image, as shown in Fig 2 and Fig 3 respectively.
 
 <div align=center>
 <table>
@@ -86,17 +91,31 @@ td {
         <td ><center><img src="https://github.com/Ohraincu/JDNet/blob/master/fig/ex_unpair.png" width="200"></center></td>
     </tr>
     <tr>
-        <td >Fig: Paired image.</td>
-        <td >Fig: Unpaired image.</td>
+        <td >Fig2: Paired image.</td>
+        <td >Fig3: Unpaired image.</td>
     </tr>
 </table>
 </div>
 
+For the different forms of input images, we need to modify some settings in the settings.py:
+
+```
+pic_is_pair = True  #input picture is pair or single
+data_dir = '/Your_paired_datadir'
+if pic_is_pair is False:
+    data_dir = '/Your_unpaired_datadir'
+```
+At this point, if you have the following representation in your train/eval/show.py:
+
+```
+dt = sess.get_dataloader('test')
+```
+The path of the dataset you are about to run is: "/Your_paired_datadir/test"
 
 
 
 ## Citation
 
 
-
+## 
 
