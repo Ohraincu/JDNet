@@ -75,7 +75,15 @@ parser.add_argument('-m', '--model', default='net_x_epoch')
 
 ## Supplement to setting.py
 
+<div align=center>
+<img src="https://github.com/Ohraincu/JDNet/blob/master/fig/ex_pair.png" width="80%" height="80%">
 
+Fig：Paired input image.
+</div><div align=center>
+<img src="https://github.com/Ohraincu/JDNet/blob/master/fig/ex_unpair.png" width="80%" height="80%">
+
+Fig：Unpaired input image.
+</div>
 
 ### Numerical Experiments
 
