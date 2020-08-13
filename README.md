@@ -38,8 +38,8 @@ Please download the following datasets:
 Please download this project through 'git' command.
 All training and testing experiments are in a folder called [code](https://github.com/Ohraincu/JDNet/tree/master/code):
 ```
-git clone https://github.com/Ohraincu/JDNet.git
-cd code
+$ git clone https://github.com/Ohraincu/JDNet.git
+$ cd code
 ```  
 Next, we can see folders in the following form:
 
@@ -62,19 +62,19 @@ Thanks to [the code by Li et al.](https://xialipku.github.io/RESCAN/), our code 
 ## Training
 After you download the above datasets, you can perform the following operations to train:
 ```
-cd config
-python train.py
+$ cd config
+$ python train.py
 ```  
 You can pause or start the training at any time because we can save the pre-trained models (named 'latest_net' or 'net_x_epoch') in due course.
 
 ## Testing
 After running eval.py, you can get the corresponding numerical results (PSNR and SSIM):
 ```
-python eval.py
+$ python eval.py
 ``` 
 If the visual results on datasets need to be observed, the show.py can be run:
 ```
-python show.py
+$ python show.py
 ``` 
 All the pre-trained model in each case is placed in the corresponding 'model' folder, and the 'latest_net' model is directly referenced by default. If you want to generate results for your training intermediate model, you can make the following changes to eval.py or show.py:
 ```
