@@ -5,9 +5,9 @@
 This work has been accepted by ACM'MM 2020. [\[Arxiv\]](https://arxiv.org/abs/2008.02763) 
 
 <div align=center>
-<img src="https://github.com/Ohraincu/JDNet/blob/master/fig/result.png" width="80%" height="80%">
+<img src="https://github.com/Ohraincu/JDNet/blob/master/fig/result.png" width="50%">
 
-Fig1：The architecture of Joint Network for deraining (JDNet).
+Fig1：An example from real-world datasets.
 </div>
 
 ## Abstract
@@ -16,7 +16,7 @@ In this paper, we propose an effective algorithm, called JDNet, to solve the sin
 <div align=center>
 <img src="https://github.com/Ohraincu/JDNet/blob/master/fig/overall.png" width="80%" height="80%">
 
-Fig1：The architecture of Joint Network for deraining (JDNet).
+Fig2：The architecture of Joint Network for deraining (JDNet).
 </div>
 
 ## Requirements
@@ -82,7 +82,7 @@ parser.add_argument('-m', '--model', default='net_x_epoch')
 ## Supplement to settings.py
 One thing to note is that, there are two types of input in our training or testing.
 
-One takes a paired image as input, and the other uses a single rainy image, as shown in Fig 2 and Fig 3 respectively.
+One takes a paired image as input, and the other uses a single rainy image, as shown in Fig3 and Fig4 respectively.
 
 <div align=center>
 <table>
@@ -91,8 +91,8 @@ One takes a paired image as input, and the other uses a single rainy image, as s
         <td ><center><img src="https://github.com/Ohraincu/JDNet/blob/master/fig/ex_unpair.png" width="200"></center></td>
     </tr>
     <tr>
-        <td >Fig2: Paired image.</td>
-        <td >Fig3: Unpaired image.</td>
+        <td >Fig3: Paired image.</td>
+        <td >Fig4: Unpaired image.</td>
     </tr>
 </table>
 </div>
