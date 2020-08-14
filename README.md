@@ -57,7 +57,11 @@ Next, we can see folders in the following form:
         |--mae
         |--mse
 
-The implementation code in our work is in the [base](https://github.com/Ohraincu/JDNet/tree/master/code/base) folder. In the [ablation](https://github.com/Ohraincu/JDNet/tree/master/code/ablation) folder, there are two experimental codes for ablation learning mentioned in the paper. The only difference between the code in the [loss](https://github.com/Ohraincu/JDNet/tree/master/code/loss) folder and the [base](https://github.com/Ohraincu/JDNet/tree/master/code/base) is that different loss functions are used in the training process.
+The implementation code in our work is in the [base](https://github.com/Ohraincu/JDNet/tree/master/code/base) folder. 
+
+In the [ablation](https://github.com/Ohraincu/JDNet/tree/master/code/ablation) folder, there are two experimental codes for ablation learning mentioned in the paper. 
+
+The only difference between the code in the [loss](https://github.com/Ohraincu/JDNet/tree/master/code/loss) folder and the [base](https://github.com/Ohraincu/JDNet/tree/master/code/base) is that different loss functions are used in the training process.
 
 Thanks to [the code by Li et al.](https://xialipku.github.io/RESCAN/), our code is also adapted based on this.
 
