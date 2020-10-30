@@ -22,7 +22,7 @@ Fig2：The architecture of Joint Network for deraining (JDNet).
 </div>
 
 ## Requirements
-- CUDA 9.0
+- CUDA 9.0 (or later)
 - Python 3.6 (or later)
 - Pytorch 1.1.0
 - Torchvision 0.3.0
